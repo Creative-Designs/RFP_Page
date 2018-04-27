@@ -41,6 +41,35 @@
 body{
 	background:#E8EAE9;
 }
+.logo_text{
+	font-size:14px;
+	font-weight:bold;
+	color:#5F5F5F;
+	margin:2px 0 10px 5px;
+}
+.support_para1{
+	font-size:16px;
+	color:#787878;
+	margin:0 0 0 0;
+}
+ .support_para{
+	  font-size:15px;
+	  color:#5F5F5F;
+	  margin:30px 0 0 0;
+ }
+.phone_icon{
+	 float:left;
+	 width:45px;
+	 margin:30px 10px 10px 25px;
+}
+.logo_style{
+	width:220px;
+	height:70px;
+	margin:10px 0 0 10px;
+}
+.header_part{
+	background:#
+}
 .blue_line{
 	background:#055875;
 	height:8px;
@@ -143,12 +172,54 @@ label{
 	width:100px;
 	height:40px;
 }
+.footer_part{
+	background:#323232;}
+     .copy_text{
+			font-size:16px;
+			color:#fff;
+			margin:10px 0 10px 0;
+			text-align:left!important;
+			}
+ .footer_icon{
+	 color:#fff;
+	 font-size:30px;
+	 margin:0 0 20px 25px;
+	 cursor:pointer;
+	 }
+  .footer_icon:hover{
+	  color:#0AD1C5;
+	  }
+  .footer_icon_facebook{
+	  color:#fff;
+	  font-size:30px;
+	 margin:0 0 20px 25px;
+	  cursor:pointer;
+	  }
+  .footer_icon_facebook:hover{
+	  color:#3E71AC;
+	  }
+  .footer_icon_in{
+	  color:#fff;
+	font-size:30px;
+	 margin:0 0 20px 25px;
+	  cursor:pointer;
+	  }
+    .footer_icon_in:hover{
+		color:#0177b5;
+		}
+       
 
 /*=====================media query=========================*/
 @media screen and (min-width:100px) and (max-width:480px){
+	 .logo_style{width:120px;
+	 height:40px;}
+        .logo_text{font-size:6px;font-weight:bold;color:#5F5F5F;margin:10px 0 10px 5px;}
+        .phone_icon{width:20px;margin:20px 10px 30px 20px;}
+        .support_para1{font-size:11px;color:#787878;margin:0 0 0 0;}
+        .support_para{font-size:11px;color:#5F5F5F;margin:20px 0 0 10px;}
 	
 	
-	.blue_line{
+.blue_line{
 	background:#03B4DB;
 	height:8px;
 	margin:10px 0 0 0;
@@ -253,7 +324,21 @@ label{
 	width:100px;
 	height:40px;
 }
-}
+
+.footer_icon{color:#fff;font-size:30px;margin:20px 0 20px 5px;cursor:pointer;}
+        .footer_icon:hover{color:#0AD1C5;}
+        .footer_icon_facebook{color:#fff;font-size:30px;margin:20px 0 20px 5px;cursor:pointer;}
+        .footer_icon_facebook:hover{color:#3E71AC;}
+        .footer_icon_in{color:#fff;font-size:30px;margin:20px 0 20px 5px;cursor:pointer;}
+        .footer_icon_in:hover{color:#0177b5;}
+		
+		 .copy_text{
+			font-size:13px;
+			color:#fff;
+			margin:10px 0 10px 0;
+			text-align:left!important;
+			}
+ }
 
 
 
