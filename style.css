@@ -227,10 +227,19 @@ label{
 
 /*=====================media query=========================*/
 @media screen and (min-width:100px) and (max-width:480px){
-	 .logo_style{width:120px;
-	 height:40px;}
-        .logo_text{font-size:6px;font-weight:bold;color:#5F5F5F;margin:10px 0 10px 5px;}
-        .phone_icon{width:20px;margin:20px 10px 30px 20px;}
+.logo_style{
+		 width:120px;
+	 height:40px;
+	 }
+ .logo_text{
+	font-size:6px;
+	font-weight:bold;
+	color:#5F5F5F;
+	margin:10px 0 10px 5px;
+	}
+ .phone_icon{
+	 width:20px;
+	 margin:20px 10px 30px 20px;}
         .support_para1{font-size:11px;color:#787878;margin:0 0 0 0;}
         .support_para{font-size:11px;color:#5F5F5F;margin:20px 0 0 10px;}
 	
