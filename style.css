@@ -176,16 +176,16 @@ label{
 	background:#323232;
 	padding:10px 0 0 0;
 	}
-     .copy_text{
-			font-size:16px;
-			color:#fff;
-			margin:10px 0 10px 0;
-			text-align:left!important;
+ .copy_text{
+	font-size:16px;
+	color:#fff;
+	margin:5px 0 5px 0;
+	text-align:left!important;
 			}
  .footer_icon{
 	 color:#fff;
 	 font-size:30px;
-	 margin:0 0 20px 25px;
+	 margin:0 0 20px 0;
 	 cursor:pointer;
 	 }
   .footer_icon:hover{
@@ -194,7 +194,7 @@ label{
   .footer_icon_facebook{
 	  color:#fff;
 	  font-size:30px;
-	 margin:0 0 20px 25px;
+	 margin:0 0 20px 20px;
 	  cursor:pointer;
 	  }
   .footer_icon_facebook:hover{
@@ -203,7 +203,7 @@ label{
   .footer_icon_in{
 	  color:#fff;
 	font-size:30px;
-	 margin:0 0 20px 25px;
+	 margin:0 0 20px 20px;
 	  cursor:pointer;
 	  }
     .footer_icon_in:hover{
