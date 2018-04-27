@@ -173,7 +173,9 @@ label{
 	height:40px;
 }
 .footer_part{
-	background:#323232;}
+	background:#323232;
+	padding:10px 0 0 0;
+	}
      .copy_text{
 			font-size:16px;
 			color:#fff;
