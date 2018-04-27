@@ -207,7 +207,21 @@ label{
     .footer_icon_in:hover{
 		color:#0177b5;
 		}
-       
+  .modal_part
+
+  {	font-family:'lato_font';
+	font-size:22px;
+	color:#767676;
+	margin:10px 0 10px 0;
+	text-align:center!important;
+  }  
+  .modal_part_1{
+	 font-family:'lato_font';
+	font-size:22px;
+	color:#15A7E2;
+	margin:10px 0 10px 0;
+	text-align:center!important; 
+  }
 
 /*=====================media query=========================*/
 @media screen and (min-width:100px) and (max-width:480px){

@@ -38,13 +38,13 @@
 							<h2 class="submit_head">Submit RFP</h2>
 							<h1 class="request_head">Request for proposal for services</h1>
 							<p class="how_para">How can we help your business?</p>
-							<p class="thank_para">Thank you for your interest in Deloitte's member firm services. Please take a few moments to complete this form. Documents can be uploaded if needed to clarify your request. This mailbox only accepts qualified proposal requests for Deloitte's services.
-							All other inquires should be directed to our <a href="#">Contact Us</a> page.</p>
-							<p class="thank_para">Resumes and job inquiries should be sent through our <a href="#">Careers site.</a></p>
+							<p class="thank_para">Thank you for your interest in Deloitte's member firm services. Please take a few moments to complete this form. Documents can be uploaded if needed to clarify your request. This mailbox only accepts qualified proposal requests for Deloitte's services. All other inquires should be directed to our <a href="#">Contact Us</a> page.</p>
+							<p class="thank_para">Resumes and job inquiries should be sent through our<a href="#">Careers site.</a></p>
 						</div>
 						<div class="col-sm-5"></div>
 					</div><!--row end-->
 	<!--hr part-->
+<form method="post" role="form">
 <div class="row form_part">
 	<div class="col-sm-12">
 		<div class="circle_part">
@@ -59,41 +59,36 @@
 		<div class="col-sm-6">
 			<p class="form_head">Fields marked with an asterisk (*) are required.</p>
 			<div class="form-group">
-				<label>Company/Organization name</label>
-				<input type="text" class="form-control my_control">
+				<label>Company/Organization name*</label>
+				<input type="text" id="Company" class="form-control my_control" required value="">
 			</div>
 			<div class="form-group">
 				<label>First Name*</label>
-				<input type="text" class="form-control my_control">
+				<input type="text" id="fname" class="form-control my_control" >
 			</div>
 			
 			<div class="form-group">
-				<label>Last Name*</label>
-				<input type="text" class="form-control my_control">
+				<label>Last Name*</label>>
 			</div>
 			
 			<div class="form-group">
 				<label>Position/Job title</label>
-				<input type="text" class="form-control my_control">
+				<input type="text" id="Job" class="form-control my_control">
 			</div>
 			
 			<div class="form-group">
 				<label>Email address*</label>
-				<input type="text" class="form-control my_control">
+				<input type="text" id="Email" class="form-control my_control" >
 			</div>
 			
-			<div class="form-group">
-				<label>Phone number</label>
-				<input type="text" class="form-control my_control">
-			</div>
 			<div class="form-group">
 				<label>Country/Location*</label>
-				<input type="text" class="form-control my_control">
+				<input type="text" id="Country" class="form-control my_control" required value="">
 			</div>
 			
-			</div><!--col sm 7 end-->
-			<div class="col-sm-6"></div>
-			</div><!--row end-->
+		</div><!--col sm 7 end-->
+		<div class="col-sm-6"></div>
+	</div><!--row end-->
 			
 			
 <!--form part 2 start
@@ -167,7 +162,7 @@
 <div class="row form_part">
 	<div class="col-sm-12">
 		<div class="circle_part">
-			<p class="number_para">3</p>
+			<p class="number_para">2</p>
 		</div>
 		<h2 class="your_details_head">Your objective</h2>
 		<hr>
@@ -178,20 +173,11 @@
 			<p class="form_head">Please note that the total size of your attachment(s) must not exceed 10 Mb. Appropriate attachment types are ".doc", ".pdf", ".ppt", ".txt", ".xlsx", and ".zip".</p>
 			<div class="form-group">
 				<label>Attachment</label>
-				<input type="file" class="form-control my_control">
+				<input type="file" id="Attachment" class="form-control my_control">
 			</div>
 			<div class="form-group">
-				<label>Attachment</label>
-				<input type="file" class="form-control my_control">
-			</div>
-			<div class="form-group">
-				<label>Attachment</label>
-				<input type="file" class="form-control my_control">
-			</div>
-			
-			<div class="form-group">
-				<label>Details - please include the following info 1. Therapy area, 2. Geography, and 3. Your goal - New launch/ pricing strategy, Brand perception analysis etc.</label>
-				<textarea class="form-control my_control" style="height:200px;"></textarea>
+				<label>Details of your request - please include the following info 1. Therapy area, 2. Geography, and 3. Your goal - New launch/ pricing strategy, Brand perception analysis etc.</label>
+				<textarea class="form-control my_control" id="Details" style="height:200px;"></textarea>
 			</div>
 			
 			<div class="form-group">
@@ -200,15 +186,14 @@
 				<input type="checkbox" class="checkbox_style" >
 				<p class="checkbox_text">I have read and accept the Privacy Statement and Terms of Use. </p>
 				</div>
-				
 			</div>
-			
 		</div><!--col sm 7 end-->
 		<div class="col-sm-6"></div>
 	</div><!--row end-->
+	</form>
 	<div class="row">
 		<div class="col-sm-12">
-			<button class="btn btn-info submit_btn">Submit</button>
+			<button class="btn btn-info submit_btn"data-toggle="modal" data-target="#exampleModalCenter">Submit</button>
 		</div>
 	</div>
 <!--form part 3 end-->
@@ -229,30 +214,48 @@
 					</div>
     <div class="col-sm-6">
         <p class="copy_text text-left">Contact Us @ survey@happidoc-research.com</p>
-		<a href="https://happidoc.com/privacypolicy"><p class="copy_text"> Privacy Policy & Terms of Use</p>     </a>           
+		<a href="https://happidoc.com/privacypolicy"><p class="copy_text"> Privacy Policy & Terms of Use</p></a>           
     </div>
 </div>
-                <div class="row">
-                    <div class="col-sm-4">
-                    </div>
-                    <div class="col-sm-6">
-                        <a href="https://twitter.com/happidoc?lang=en"><i class="fa fa-twitter footer_icon" aria-hidden="true"></i></a>
-                        <a href="https://www.facebook.com/groups/medclick">
-                        <i class="fa fa-facebook footer_icon_facebook" aria-hidden="true"></i>
-                        </a>
-                        <a href="https://in.linkedin.com/company/happidoc"><i class="fa fa-linkedin footer_icon_in" aria-hidden="true"></i></a>
-                    </div>
-                    <div class="col-sm-2">
-                    </div>
-                </div>
-				
-				
-			</div>
-			<div class="col-sm-2"></div>
+    <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-6">
+             <a href="https://twitter.com/happidoc?lang=en"><i class="fa fa-twitter footer_icon" aria-hidden="true"></i></a>
+             <a href="https://www.facebook.com/groups/medclick">
+             <i class="fa fa-facebook footer_icon_facebook" aria-hidden="true"></i>
+             </a>
+             <a href="https://in.linkedin.com/company/happidoc"><i class="fa fa-linkedin footer_icon_in" aria-hidden="true"></i></a>
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+	</div>
+	<div class="col-sm-2"></div>
 		</div>
 	</div>
 </div>
-		
+<!--modal-->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" >
+        <p class="modal_part ">Thank you for contacting us.<br> We will review your request and get in touch shortly.</p> <p class=
+		"modal_part_1">Team HappiDoc </p>
+      </div>
+      <div class="modal-footer">
+        <!--<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>-->
+    
+      </div>
+    </div>
+  </div>
+</div>
 		
 	</body>	
 </html>
